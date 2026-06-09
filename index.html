@@ -50,22 +50,26 @@
                         ou cadastre-se:
                     </p>
 
-                    <form class="form">
-                        <label class="label label-input" for="">
-                            <i class="fas fa-user icons"></i>
-                            <input type="text" placeholder="Nome">
-                        </label>
-
+                    <form class="form">                    
                         <label class="label label-input" for="">
                             <i class="fas fa-envelope icons"></i>
-                            <input type="email" placeholder="E-mail">
+                            <input id="email" type="email" 
+                                   placeholder="E-mail">
                         </label>
 
                         <label class="label label-input" for="">
                             <i class="fas fa-lock icons"></i>
-                            <input type="password" placeholder="Password">
+                            <input id="senha" type="password"
+                                   placeholder="Password">
                         </label>
-                        <button class="button button-second">Cadastrar</button>
+
+                        <label class="label label-input" for="">
+                            <i class="fas fa-lock icons"></i>
+                            <input id="confirmarSenha" type="password" 
+                                   placeholder="Confirme seu password">
+                        </label>
+
+                        <button id="register" class="button button-second">Cadastrar</button>
                     </form>
                 </div>
             </div>
@@ -116,14 +120,14 @@
                     <form class="form" action="">
                         <label class="label label-input">
                             <i class="fas fa-envelope icons"></i>
-                            <input id="emailLogin" 
+                            <input id="email" 
                                 type="email" 
                                 placeholder="E-mail">
                         </label>
 
                         <label>
                             <i class="fas fa-lock icons"></i>
-                            <input id="senhaLogin" 
+                            <input id="senha" 
                                 type="password"
                                 placeholder="Senha">
                         </label>
